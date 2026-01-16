@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Для тебя ❤️</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Georgia", serif;
+            background: linear-gradient(to bottom, #ffafbd, #ffc3a0);
+            color: #4a1c2a;
+            text-align: center;
+        }
+
+        .container {
+            padding: 80px 20px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            line-height: 1.6;
+        }
+
+        .heart {
+            font-size: 60px;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        a button {
+            background-color: #d6336c;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        a button:hover {
+            background-color: #b52a5a;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="heart">❤️</div>
+    <h1>Для тебя</h1>
+    <p>
+        Этот маленький сайт создан с теплом и любовью.  
+        Он напоминает, что ты — самый важный человек.
+    </p>
+
+    <!-- Ссылка на вторую страницу -->
+    <a href="love.html">
+        <button>Нажми меня</button>
+    </a>
+</div>
+
+</body>
+</html>
